@@ -45,8 +45,19 @@ For other plugin managers, please follow their guide.
 Suggestions
 ===========
 
-This colorscheme works very well with [vim-gigutter](https://github.com/airblade/vim-gitgutter). You can see the above screenshot. For other VCS (version control system), you can use [vim-signify](https://github.com/mhinz/vim-signify).
+This colorscheme works very well with [vim-gigutter](https://github.com/airblade/vim-gitgutter). You can see the above screenshot. For other VCS (version control system), you can use [vim-signify](https://github.com/mhinz/vim-signify). Below is my configurtion for `vim-gitgutter`, just for example:
 
+```
+Plug 'airblade/vim-gitgutter'
+let g:gitgutter_highlight_lines = 1
+hi link GitGutterAdd DiffAdd
+hi link GitGutterChange DiffChange
+hi link GitGutterDelete DiffDelete
+hi link GitGutterAddLine DiffAdd
+hi link GitGutterChangeLine DiffChange
+hi link GitGutterDeleteLine Normal
+hi link GitGutterChangeDeleteLine DiffChange
+```
 
 Credits
 =======
