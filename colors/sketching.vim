@@ -27,7 +27,7 @@ let s:fg2         = { "gui": "#a0a0a0" }
 
 let s:red         = { "gui": "#D02884" }
 let s:green       = { "gui": "#00B38B" }
-let s:yellow      = { "gui": "#A89C14" }
+let s:blue        = { "gui": "#00A0CF" }
 
 function! s:h(group, style)
   execute "highlight" a:group
@@ -99,13 +99,13 @@ call s:h("VertSplit",     {"fg": s:fg2})
 call s:h("Title",         {"fg": s:fg2}) 
 call s:h("Visual",        {"gui": "standout"}) 
 call s:h("VisualNOS",     {"gui": "standout"}) 
-call s:h("WarningMsg",    {"fg": s:yellow}) 
+call s:h("WarningMsg",    {"fg": s:red})
 call s:h("WildMenu",      {"fg": s:fg1, "bg": s:bg2}) 
 call s:h("Folded",        {"fg": s:fg1, "bg": s:bg3})
 call s:h("FoldColumn",    {"fg": s:fg2}) 
-call s:h("DiffAdd",       {"fg": s:green}) 
+call s:h("DiffAdd",       {"fg": s:blue})
 call s:h("DiffDelete",    {"fg": s:red}) 
-call s:h("DiffChange",    {"fg": s:yellow}) 
+call s:h("DiffChange",    {"fg": s:green})
 call s:h("DiffText",      {"fg": s:fg1}) 
 call s:h("DiffFile",      {"fg": s:fg1, "gui": "underline"})
 call s:h("SignColumn",    {"fg": s:fg1}) 
