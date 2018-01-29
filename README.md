@@ -3,7 +3,7 @@ What's this?
 
 A minimal light colorscheme for Vim/Neovim.
 
-![Screenshot](./demo.png?raw=true)
+![neovim-nvim-vim-colors-sketching-screenshot](./demo.png?raw=true)
 
 In the screenshot:
 
