@@ -42,6 +42,12 @@ colorscheme sketching
 
 For other plugin managers, please follow their guide.
 
+Suggestions
+===========
+
+This colorscheme works very well with [vim-gigutter](https://github.com/airblade/vim-gitgutter). You can see the above screenshot. For other VCS (version control system), you can use [vim-signify](https://github.com/mhinz/vim-signify).
+
+
 Credits
 =======
 
