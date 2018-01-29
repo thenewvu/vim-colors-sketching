@@ -25,9 +25,9 @@ let s:bg3         = { "gui": "#e8e8e8" }
 let s:fg1         = { "gui": "#606060" }
 let s:fg2         = { "gui": "#a0a0a0" }
 
-let s:red         = { "gui": "#B36154" }
-let s:green       = { "gui": "#91A16A" }
-let s:yellow      = { "gui": "#DDC173" }
+let s:red         = { "gui": "#D02884" }
+let s:green       = { "gui": "#00B38B" }
+let s:yellow      = { "gui": "#A89C14" }
 
 function! s:h(group, style)
   execute "highlight" a:group
