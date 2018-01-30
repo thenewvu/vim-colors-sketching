@@ -19,9 +19,9 @@ endif
 
 let g:colors_name='sketching'
 
-let s:bg1         = { "gui": "#f0f0f0" }
-let s:bg2         = { "gui": "#e0e0e0" }
-let s:bg3         = { "gui": "#e8e8e8" }
+let s:bg1         = { "gui": "#EFEFF4" }
+let s:bg2         = { "gui": "#d1d1df" }
+let s:bg3         = { "gui": "#e0e0ea" }
 let s:fg1         = { "gui": "#606060" }
 let s:fg2         = { "gui": "#a0a0a0" }
 
